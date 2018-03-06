@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	}
+.wrapper{
+	width:1000px;
+	height:auto;
+	border: 1px solid red;
+	margin:auto;
+	}
+.header{
+	width:100%;
+	height:120px;
+	border:1px solid gray;
+	}
+.menu{
+	width:100%;
+	height:30px;
+	border:1px solid red;
+	}
+.menu ul{
+	width:100%;
+	height:30px;
+	list-style:none;
+	}
+.menu ul li{
+	float:left;
+	line-height:30px;
+	margin-left:10px;
+	}
+.menu ul li a{
+	text-decoration:none;
+	}
+.menu ul li a:hover{
+	color:red;
+	text-decoration:underline;
+	}
+.content{
+	width:100%;
+	height:auto;
+	border:1px solid yellow;
+	}
+.left{
+	width:200px;
+	height:auto;
+	border:1px solid blue;
+	float:left;
+	}
+.danhsachsanpham ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+	}
+.danhsachsanpham ul li{
+	marigin-left:20px;
+	margin:5px;
+	}
+.danhsachsanpham ul li a{
+	text-decoration:none;
+	}
+.danhsachsanpham ul li a:hover{
+	text-decoration:underline;
+	color:red;
+	}
+.hangsanpham ul{
+	list-style:none;
+	}
+.hangsanpham ul li{
+	margin-left:20px;
+	margin:5px;
+	}
+.hangsanpham ul li a{
+	text-decoration:none;
+	}
+.hangsanpham ul li a:hover{
+	text-decoration:underline;
+	color:red;
+	}
+.sanpham{
+	border:1px solid gray;
+	border-radius:10px;
+	text-align:center;
+	width:150px;
+	height:190px;
+	margin:10px;
+	margin-left:22px;
+	padding:5px;
+	float:left;
+	}	
+.sanpham:hover{
+	box-shadow:0 0 10px red;
+	}
+.ten{
+	color:blue;
+	font-weight:bold;
+	font-size:17px;
+	}
+.gia{
+	color:red;
+	font-weight:bold;
+	}
+.chitiet-sp>a{
+	text-decoration:none;
+}
+.chitiet-sp>a:hover{
+	color:red;
+}
+	/*
+.gia del{
+	color:gray;
+	}*/
+
+.right{
+	width:790px;
+	height:auto;
+	padding-bottom:10px;
+	border:1px solid red;
+	float:right;
+	
+	}
+.clear{
+	clear:both;
+	}
+.footer{
+	width:100%;
+	height:80px;
+	border:1px solid red;
+	}
+.searchform{
+	margin-top:5px;
+	float:right;
+}
